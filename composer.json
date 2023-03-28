@@ -1,0 +1,22 @@
+{
+    "name": "vitor/crud-produto-e-pedido",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor",
+            "email": "vitorfigueiredo855@gmail.com"
+        }
+    ],
+    "require": {
+      "robmorgan/phinx": "^0.13.1",
+      "vlucas/phpdotenv": "^5.5",
+      "league/plates": "^3.4"
+  },
+    "scripts": {
+      "start": "php -S 0.0.0.0:8000 -t public/"
+    }
+}
